@@ -1,0 +1,5 @@
+{
+  "name": "EcoSwap Marketplace",
+  "description": "A secure marketplace for waste materials, connecting sellers with buyers to promote recycling and industrial reuse. Features AI-powered categorization and verified seller badges.",
+  "requestFramePermissions": ["geolocation"]
+}
