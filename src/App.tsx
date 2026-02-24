@@ -1393,7 +1393,7 @@ export default function App() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   {[
-                    { title: 'Plastic Polymers', img: 'https://unsplash.com/photos/blue-labeled-plastic-bottles--4bD2p5zbdA', desc: 'PET, HDPE, LDPE, and PP flakes or bales.' },
+                    { title: 'Plastic Polymers', img: 'src/assets/plastic.jpg', desc: 'PET, HDPE, LDPE, and PP flakes or bales.' },
                     { title: 'Metal Alloys', img: 'src/assets/metal.jpg', desc: 'Copper, Aluminum, and Steel scrap materials.' },
                     { title: 'Paper & Fiber', img: 'src/assets/paper.jpg', desc: 'Corrugated cardboard and high-grade office paper.' }
                   ].map((cat, idx) => (
