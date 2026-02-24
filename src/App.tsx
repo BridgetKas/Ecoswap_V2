@@ -1393,9 +1393,9 @@ export default function App() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   {[
-                    { title: 'Plastic Polymers', img: 'https://picsum.photos/seed/plastic/800/600', desc: 'PET, HDPE, LDPE, and PP flakes or bales.' },
-                    { title: 'Metal Alloys', img: 'https://picsum.photos/seed/metal/800/600', desc: 'Copper, Aluminum, and Steel scrap materials.' },
-                    { title: 'Paper & Fiber', img: 'https://picsum.photos/seed/paper/800/600', desc: 'Corrugated cardboard and high-grade office paper.' }
+                    { title: 'Plastic Polymers', img: 'src/assets/plastic.jpg', desc: 'PET, HDPE, LDPE, and PP flakes or bales.' },
+                    { title: 'Metal Alloys', img: 'src/assets/metal.jpg', desc: 'Copper, Aluminum, and Steel scrap materials.' },
+                    { title: 'Paper & Fiber', img: 'src/assets/paper.jpg', desc: 'Corrugated cardboard and high-grade office paper.' }
                   ].map((cat, idx) => (
                     <motion.div 
                       key={idx}
